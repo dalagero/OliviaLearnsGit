@@ -41,7 +41,7 @@ def exclusion(d):
             if m <= d:
                 orig = np.argmin(a)
                 dec = np.argmin(a[110:]) + 110
-                t = (dec - orig) * 0.01857 #converting to microseconds (if connected to oscilloscope, you could also use rigolread.timeinc)
+                t = (dec - orig) * 0.01881 #converting to microseconds (if connected to oscilloscope, you could also use rigolread.timeinc)
                 decaytimes.append(t)
     
     #Announce decays extracted and saving to file

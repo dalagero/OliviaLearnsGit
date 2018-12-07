@@ -72,6 +72,10 @@ def plot(f):
 
     #Get discrimination level from filename
     dstr = str(f[7]) + str(f[8]) + str(f[9])
+    if str(f[10]).isdigit() == True:
+        dstr += str(f[10])
+        if str(f[11]).isdigit() == True:
+            dstr += str(f[11])
     d = float(dstr)
     discr.append(d)
 

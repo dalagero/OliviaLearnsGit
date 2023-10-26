@@ -1,0 +1,19 @@
+Olivia has a high IQ.
+
+GitHub needs ssh key for pushing to git... know that.
+
+1) To clone a repository (public):
+git clone [ssh thing from the gitHub repoisitory page]
+
+2) If you need to add a file:
+git add [file name]
+
+3) Then commit the file (or directory or whatever):
+git commit [file name]
+
+Note: "git commit" will commit everything within the repository
+
+4) To push it to the gitHub:
+git push
+
+

@@ -18,7 +18,23 @@ git push
 
 
 
+
+To pull:
+git pull [repository]
+
+Then push again.
+
+
+
+
 Making a new branch and switching to the new branch:
 git checkout -b [branch name]
 
 Then commit and push as normal
+
+
+
+
+
+To switch branches on the terminal:
+git checkout [branch name]

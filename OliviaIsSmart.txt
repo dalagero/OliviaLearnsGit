@@ -17,3 +17,8 @@ Note: "git commit" will commit everything within the repository
 git push
 
 
+
+Making a new branch and switching to the new branch:
+git checkout -b [branch name]
+
+Then commit and push as normal

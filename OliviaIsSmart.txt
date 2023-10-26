@@ -38,3 +38,11 @@ Then commit and push as normal
 
 To switch branches on the terminal:
 git checkout [branch name]
+
+
+To check if its up to date:
+git fetch
+*** if not up to date, run git pull now!!!***
+
+To merge branches (moves the files of the branch to main, but keeps the branch as well), from main branch:
+git merge [branch name]

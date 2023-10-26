@@ -1,4 +1,4 @@
-Olivia has a high IQ.
+Olivia has a highER IQ because she ate a carrot.
 
 GitHub needs ssh key for pushing to git... know that.
 
